@@ -1,0 +1,53 @@
+.navigationBox {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    row-gap: 20px;
+    color: aliceblue;
+    flex-wrap: wrap;
+  }
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .navigationEl {
+    padding: 7px 12px;
+    border: 1px solid #777;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+  }
+
+  .navigationEl:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .active {
+    position: relative;
+    color: #2c2b2b;
+    border: 1px solid #eeebeb;
+    box-shadow: -1px -1px 0px #bdbbbb, 2px 2px 3px #120101;
+  
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 5px solid #120101;
+    border-width: 0px 0px 3px 0px;
+    color: #1915e7;
+  }
+  
+  @media screen and (max-width: 300px) {
+    .navigationBox {
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .navigationEl {
+      width: 100%;
+      border-radius: 999px;
+      max-width: 300px;
+    }
+  }

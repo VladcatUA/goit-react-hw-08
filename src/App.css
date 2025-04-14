@@ -1,0 +1,28 @@
+#root {
+  margin: 0 auto;
+  min-width: 100vw;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+html {
+  min-width: 100vw;
+}
+body {
+  background-color: #111929;
+  color: #a39292;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #111929;
+}
+
+h1 {
+  color: #fff;
+}

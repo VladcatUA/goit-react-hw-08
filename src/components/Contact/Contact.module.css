@@ -1,0 +1,58 @@
+.card {
+    font-size: 20px;
+    position: relative;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid transparent;
+    position: relative;
+    background-color: #2c75db;
+    margin: 10px;
+    margin-inline: auto;
+    margin-bottom: 30px;
+    max-width: 450px;
+    min-width: 220px;
+    min-height: 80px;
+  }
+  
+  .card .title {
+    color: rgb(32, 52, 131);
+    text-align: center;
+    color: white;
+    background-clip: text;
+  }
+  .card p {
+    font-size: 28px;
+  }
+  .boxName {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  .iconUser {
+    font-size: 70px;
+    color: #9d9c99;
+  }
+  
+  .button {
+    position: relative;
+  }
+  .button {
+    position: relative;
+    cursor: pointer;
+    background-color: yellow;
+    width: 50%;
+    text-align: center;
+    color: #a6adff;
+    font-size: 20px;
+    letter-spacing: 5px;
+    cursor: pointer;
+
+  }
+  
+  .button:hover {
+    color: #ffffff;
+    background-color: #3d10a4;
+  }

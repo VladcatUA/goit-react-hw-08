@@ -1,0 +1,28 @@
+.searchBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 20px;
+    color: #3668d5;
+    margin-bottom: 60px;
+    background-color: #abdff0;
+    border: 1px solid #a6fffe;
+    border-radius: 5px;
+  } 
+
+  .searchBox input {
+    display: inline-block;
+    max-width: 80%;
+    padding: 10px 20px;
+    max-width: 300px;
+    margin: 10px;
+    background-color: #5d7fc2;
+    border-radius: 5px;
+    border: 5px solid transparent;
+    color: #f7daa5;
+    font-size: 20px;
+  }
